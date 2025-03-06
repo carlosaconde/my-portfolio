@@ -1,10 +1,15 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
+import { Projects } from "./components/Projects";
+import { Studies } from "./components/Studies";
 
 function App() {
   return (
     <>
       <div>
-        <h1>Portfolio de carlos conde</h1>
+        <NavBar />
+        <Projects />
+        <Studies />
       </div>
     </>
   );
