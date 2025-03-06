@@ -19,7 +19,7 @@ export default function ProjectCard() {
     <Card sx={{ maxWidth: 350 }}>
       <CardContent>
         <video width="350" controls loop>
-          <source src="./src/assets/buildhub.mp4" type="video/mp4" />
+          <source src="/my-portfolio/assets/buildhub.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
