@@ -10,14 +10,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   base: "/my-portfolio/",
   plugins: [react(), tailwindcss()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, "index.html"),
-        video: path.resolve(__dirname, "src/assets/buildhub.mp4"),
-      },
-    },
-  },
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
