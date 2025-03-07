@@ -17,6 +17,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.7",
     "@mui/material": "^6.4.5",
+    "@tabler/icons-react": "^3.31.0",
     "@tailwindcss/vite": "^4.0.10",
     "aceternity-ui": "^0.2.2",
     "class-variance-authority": "^0.7.1",
@@ -25,6 +26,8 @@
     "motion": "^12.4.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router": "^7.3.0",
+    "react-router-dom": "^7.3.0",
     "simplex-noise": "^4.0.3",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7"

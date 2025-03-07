@@ -1,44 +1,32 @@
-import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
-);
-
+import GitHubIcon from "@mui/icons-material/GitHub";
 export default function ProjectCard() {
   return (
-    <Card sx={{ maxWidth: 350 }}>
+    <Card sx={{ width: 400, backgroundColor: "transparent" }}>
       <CardContent>
-        <video width="350" controls loop>
-          <source src="https://youtu.be/O2gE5eiw20c" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
-          Word of the Day
-        </Typography>
-        <Typography variant="h5" component="div">
-          be{bull}nev{bull}o{bull}lent
-        </Typography>
-        <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
-          adjective
-        </Typography>
-        <Typography variant="body2">
+        <iframe
+          width="300"
+          height="300"
+          src="https://www.youtube.com/embed/O2gE5eiw20c?si=5Y1n-LN-nUB4ROvw"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+          referrerPolicy="strict-origin-when-cross-origin"
+        ></iframe>
+
+        <Typography color="#fafafa" variant="body2">
           well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">
+          <GitHubIcon />
+          github
+        </Button>
       </CardActions>
     </Card>
   );
