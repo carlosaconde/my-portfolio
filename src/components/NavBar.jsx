@@ -124,7 +124,7 @@ function ResponsiveAppBar() {
                 <Avatar
                   sx={{ width: 70, height: 70 }}
                   alt="Conde carlos"
-                  src="src/assets/WhatsApp Image 2025-02-12 at 2.35.50 AM (1).jpeg"
+                  src="./src/assets/carlos.jpeg"
                 />
               </IconButton>
             </Tooltip>
